@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root{
+    --body-font: "Poppins", sans-serif;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-login{
+    background-color: hsla(224, 16%, 92%, .6);
+    border: 2px solid hsla(224, 16%, 92%, .75);
+    border-radius: 20px;
+    padding: 40px 40px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.title-login{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    font-family: var(--body-font);
+}
+
+.inputs-login{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputs-login input{
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f2f5ff;
+    height: 45px;
+    padding-left: 20px;
+    width: 335px;
+    margin-top: 5px;
+    border: 2.5px solid hsl(244deg 4% 36%);
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.inputs-login label{
+    color: white;
+    position: relative;
+    display: flex;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    font-family: var(--body-font);
+    top: 20px;
+}
+
+.btn-login button{
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 8px 13px;
+    font-size: 18px;
+    width: 335px;
+    height: 45px;
+    background-color: hsl(249deg 64% 47%);
+    font-family: var(--body-font);
+}
+
+.description-login a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.description-login a span{
+    text-decoration: none;
+    color: hsl(249deg 64% 47%);
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.description-login a span:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid hsl(249deg 64% 47%);
+}
+
+.btn-login button:hover{
+    background-color: hsl(249deg 54% 37%);
+    cursor: pointer;
+}
